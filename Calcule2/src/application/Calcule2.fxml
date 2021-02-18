@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="220.0" prefWidth="306.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Calcule1Controller">
+   <children>
+      <Button fx:id="add" layoutX="14.0" layoutY="110.0" mnemonicParsing="false" onAction="#calculs" prefHeight="27.0" prefWidth="99.0" text="Addition" />
+      <Button fx:id="sous" layoutX="131.0" layoutY="110.0" mnemonicParsing="false" onAction="#calculs" prefHeight="27.0" prefWidth="111.0" text="Soustraction" />
+      <TextField fx:id="txt1" layoutX="14.0" layoutY="31.0" onKeyReleased="#verifText" />
+      <TextField fx:id="txt2" layoutX="14.0" layoutY="71.0" onKeyReleased="#verifText" />
+      <Label fx:id="lblRes" layoutX="227.0" layoutY="63.0" text="Label" textFill="RED" />
+      <Button fx:id="mul" layoutX="36.0" layoutY="157.0" mnemonicParsing="false" onAction="#calculs" text="Multiplication" />
+      <Button fx:id="div" layoutX="159.0" layoutY="157.0" mnemonicParsing="false" onAction="#calculs" text="Division" />
+   </children>
+</AnchorPane>
